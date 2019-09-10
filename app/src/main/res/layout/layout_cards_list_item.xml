@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    app:ignore="NamespaceTypo">
+
+
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        card_view:cardCornerRadius="15dp"
+        android:padding="10dp"
+        app:cardBackgroundColor="@color/card_view_clr">
+
+        <com.makeramen.roundedimageview.RoundedImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/card_bg"
+            android:scaleType="centerCrop"
+            app:riv_corner_radius="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/card_company_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Suvarana Palace Jewels"
+                    android:textSize="20dp"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="10dp"
+                    />
+
+                <ImageView
+                    android:id="@+id/company_logo"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/add_logo"
+                    android:tint="@android:color/black"
+                    android:background="@drawable/add_btn_border"
+                    android:layout_alignParentEnd="true"
+                    android:padding="10dp"
+                    />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/card_company_address"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/_33_34_harekrishna_society_opp_vandna_society_shyamdham_road_nana_varacha_surat_395006"
+                android:textSize="15dp"
+                android:textColor="@android:color/white"
+                android:layout_marginTop="10dp"
+                />
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+
+                <TextView
+                    android:id="@+id/card_owner_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="S Shah"
+                    android:textColor="@android:color/white"
+                    android:textSize="15dp"
+                    />
+
+                <TextView
+                    android:id="@+id/card_company_contact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="4578546854"
+                    android:textColor="@android:color/white"
+                    android:layout_alignParentEnd="true"
+                    android:textSize="15dp"
+                    />
+
+            </RelativeLayout>
+
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

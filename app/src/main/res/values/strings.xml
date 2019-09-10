@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cardwallet</string>
+    <string name="_33_34_harekrishna_society_opp_vandna_society_shyamdham_road_nana_varacha_surat_395006">33/34 Harekrishna society opp. vandna society shyamdham road nana varacha surat-395006</string>
+    <string name="Society">s</string>
+
+    <string-array name="navigation_drawer_item">
+        <item>Home</item>
+        <item>Add Card</item>
+        <item>My Card</item>
+        <item>Favorite Card</item>
+        <item>LogOut</item>
+    </string-array>
+
+</resources>

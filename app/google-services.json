@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "976387568577",
+    "firebase_url": "https://card-wallet-8da64.firebaseio.com",
+    "project_id": "card-wallet-8da64",
+    "storage_bucket": "card-wallet-8da64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976387568577:android:ad3460cc1d1ca9b5",
+        "android_client_info": {
+          "package_name": "com.app.cardwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976387568577-r43n82t05jde1lo58dklt678k15hqik2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.cardwallet",
+            "certificate_hash": "7071b32da3da46cf392e15303889744428add57e"
+          }
+        },
+        {
+          "client_id": "976387568577-brpe3svf0838jo7h25ekp88h601e3hv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqLDvV1cVc_WWuRjz8jEAc-UNEDmB5bxs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "976387568577-brpe3svf0838jo7h25ekp88h601e3hv5.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "976387568577-41gcmkenada3jo6bt9s41ii7cvl6s4pl.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.CardWallet"
+              }
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

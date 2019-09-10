@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowCardActivity"
+    android:padding="20dp"
+    android:background="#B2000000">
+
+
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/back_to_dash_board"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/back"-->
+            <!--android:tint="@android:color/white"-->
+            <!--/>-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/share_card"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:src="@drawable/share"-->
+            <!--android:tint="@android:color/white"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--/>-->
+
+
+
+    <!--</RelativeLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:id="@+id/card_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--app:cardCornerRadius="10dp"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:padding="10dp"-->
+        <!--app:cardBackgroundColor="@color/card_view_clr">-->
+
+        <!--<com.makeramen.roundedimageview.RoundedImageView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:src="@drawable/card_bg"-->
+            <!--android:scaleType="centerCrop"-->
+            <!--app:riv_corner_radius="10dp"-->
+            <!--/>-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--android:padding="10dp"-->
+            <!--&gt;-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+
+                <!--<ImageView-->
+                    <!--android:id="@+id/company_logo"-->
+                    <!--android:layout_width="50dp"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:src="@drawable/add_logo"-->
+                    <!--android:tint="@android:color/black"-->
+                    <!--android:background="@drawable/add_btn_border"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--android:padding="10dp"-->
+                    <!--android:layout_marginBottom="10dp"-->
+                    <!--/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/card_company_name"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Suvarana Palace Jewels"-->
+                    <!--android:textSize="20dp"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textStyle="bold"-->
+                    <!--android:layout_below="@+id/company_logo"-->
+                    <!--android:layout_centerHorizontal="true"-->
+                    <!--/>-->
+
+
+            <!--</RelativeLayout>-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/card_company_address"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/_33_34_harekrishna_society_opp_vandna_society_shyamdham_road_nana_varacha_surat_395006"-->
+                <!--android:textSize="15dp"-->
+                <!--android:textColor="@android:color/white"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--android:visibility="gone"-->
+                <!--/>-->
+
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:layout_marginTop="20dp"-->
+                <!--android:visibility="gone">-->
+
+
+                <!--<TextView-->
+                    <!--android:id="@+id/card_owner_name"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="S Shah"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:textSize="15dp"-->
+                    <!--/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/card_company_contact"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="4578546854"-->
+                    <!--android:textColor="@android:color/white"-->
+                    <!--android:layout_alignParentEnd="true"-->
+                    <!--android:textSize="15dp"-->
+                    <!--/>-->
+
+            <!--</RelativeLayout>-->
+
+
+        <!--</LinearLayout>-->
+
+    <!--</android.support.v7.widget.CardView>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginBottom="20dp">-->
+
+        <!--<Button-->
+            <!--android:id="@+id/remove_card"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/card_edit_and_delete_btn"-->
+            <!--android:textStyle="normal"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:text="Remove Card"-->
+            <!--/>-->
+
+        <!--<Button-->
+            <!--android:id="@+id/Edit_Card"-->
+            <!--android:layout_gravity="bottom"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:background="@drawable/card_edit_and_delete_btn"-->
+            <!--android:textStyle="normal"-->
+            <!--android:textAllCaps="false"-->
+            <!--android:text="Edit Card"-->
+            <!--android:layout_marginTop="15dp"-->
+            <!--/>-->
+
+
+    <!--</LinearLayout>-->
+
+
+
+
+
+
+
+
+</RelativeLayout>

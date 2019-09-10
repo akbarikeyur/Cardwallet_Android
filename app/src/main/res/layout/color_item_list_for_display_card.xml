@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/framelayout_for_clr_data"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:Card="http://schemas.android.com/tools">
+
+    <android.support.design.circularreveal.cardview.CircularRevealCardView
+        android:id="@+id/color_list_item"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        app:riv_corner_radius="15dp"
+        android:layout_margin="5dp"
+        >
+
+    <ImageView
+        android:id="@+id/setselect_or_unselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:src="@drawable/select_arrow"
+        android:visibility="gone"
+        />
+    </android.support.design.circularreveal.cardview.CircularRevealCardView>
+</FrameLayout>

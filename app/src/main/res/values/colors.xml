@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="splashclr">#252546</color>
+    <color name="btnclr"></color>
+    <color name="card_view_clr">#BC6C2B</color>
+    <color name="btn_delete_and_edit_color">#788998</color>
+
+    <color name="turquoise">#2471A3</color>
+    <color name="emerald">#C16B28</color>
+    <color name="peter_river">#90C128</color>
+    <color name="amethyst">#287EC1</color>
+    <color name="wet_asphalt">#F52B2B</color>
+    <color name="green_sea">#715AE4</color>
+    <color name="nephritis">#C1A728</color>
+    <color name="belize_hole">#DA2BF5</color>
+    <color name="wisteria">#F52B9C</color>
+    <color name="midnight_blue">#2c3e50</color>
+    <color name="sun_flowers">#285DC1</color>
+    <color name="carrot">#BDA00D</color>
+    <color name="alizarin">#20AC8C</color>
+    <color name="clouds">#C12828</color>
+
+
+    //["2471A3", "C16B28", "90C128", "287EC1", "F52B2B", "715AE4", "C1A728", "DA2BF5", "F52B9C", "285DC1", "BDA00D", "20AC8C", "C12828"]
+
+</resources>

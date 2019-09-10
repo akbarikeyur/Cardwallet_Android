@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/splashclr"
+    tools:context=".AddCardActivity"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:paddingTop="15dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Card"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        />
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollIndicators="none"
+      android:scrollbars="none">
+
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Logo"
+        android:textColor="@android:color/white"
+        android:textSize="18dp"
+        android:layout_marginTop="10dp"
+        />
+
+    <ImageView
+        android:id="@+id/add_card_image_add"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/add_logo"
+        android:layout_gravity="center"
+        android:background="@drawable/add_btn_border"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Company Name"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/add_card_company_name_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Category"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/add_card_category_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/add_card_owner_name_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/add_card_contact_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:inputType="number"
+        android:maxLength="10"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/add_card_email_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:imeOptions="actionNext"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        android:inputType="textEmailAddress"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="5dp"
+        />
+    <EditText
+        android:id="@+id/add_card_address_add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@android:color/white"
+        android:imeOptions="actionDone"
+        android:textColor="@android:color/white"
+        android:singleLine="true"
+        />
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:padding="25dp">
+
+
+              <Button
+                  android:id="@+id/cancel_btn"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Cancel"
+                  android:textStyle="bold"
+                  android:textAllCaps="false"
+                  android:textColor="@android:color/white"
+                  android:background="@drawable/add_btn_background"
+                  android:layout_weight="1"
+                  android:layout_margin="10dp"
+                  />
+
+              <Button
+                  android:id="@+id/add_next_btn"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Next"
+                  android:textStyle="bold"
+                  android:textAllCaps="false"
+                  android:textColor="@android:color/white"
+                  android:background="@drawable/next_btn_background"
+                  android:layout_weight="1"
+                  android:layout_margin="10dp"
+                  />
+
+
+          </LinearLayout>
+
+      </LinearLayout>
+</ScrollView>
+
+
+</LinearLayout>
